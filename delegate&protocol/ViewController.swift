@@ -33,7 +33,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         logoImageView.image = UIImage(named: "loginOK")
         
-        
         usernameLabel.text = userNameTextField.text
         passwordLabel.text = passWordTextField.text
         
@@ -44,9 +43,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
         view.endEditing(true)
         
     }
-    
-    
-    
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         
